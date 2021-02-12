@@ -1,5 +1,7 @@
 from django.db import models
 from django.conf import settings
+from django.contrib.auth.models import AbstractBaseUser
+from django.contrib.auth.models import PermissionsMixin
 
 class Personel(models.Model):
     """Şirkette çalışan personel listesi"""
